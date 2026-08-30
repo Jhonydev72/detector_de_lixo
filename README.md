@@ -1,4 +1,4 @@
-# Detector de Lixo com DJI Tello
+##🛩️  **Detector de Lixo com DJI Tello**
 
 Projeto de visão computacional e controle de voo utilizando o drone DJI Tello, OpenCV e YOLOv8.
 
