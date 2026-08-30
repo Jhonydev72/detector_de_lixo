@@ -1,4 +1,4 @@
-# Detector de Lixo com DJI Tello
+##🛩️  **Drone Waste Monitoring**
 
 Projeto de visão computacional e controle de voo utilizando o drone DJI Tello, OpenCV e YOLOv8.
 
