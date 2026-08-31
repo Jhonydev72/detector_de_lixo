@@ -1,0 +1,5 @@
+path: dataset_lixo_yolo 
+train: images/treino
+val: images/validacao
+names:
+  0: saco_lixo
