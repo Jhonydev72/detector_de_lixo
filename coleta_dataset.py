@@ -49,7 +49,7 @@ class ColetorDatasetEdge:
                     time.sleep(0.01)
                     continue
 
-                frame_exibicao = cv2.resize(frame, (720, 480))
+                frame_exibicao = cv2.resize(frame, (1280, 720))
                 
                 # Interface na tela atualizada com o indicador de velocidade
                 texto_hud = f"Fotos: {self.contador_fotos} | Bat: {self.tello.get_battery()}% | Vel: {self.velocidade}"
