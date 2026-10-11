@@ -1,2 +1,46 @@
 /venv
-.vscode
+.vscode# ==========================================
+# AMBIENTE PYTHON
+# ==========================================
+# Ignora a pasta do ambiente virtual (muito pesada, cada um instala o seu)
+venv/
+env/
+.env
+
+# Arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# MACHINE LEARNING E YOLOv8
+# ==========================================
+# Ignora as pastas de treinamento (logs, gráficos e imagens de validação)
+runs/
+
+# Ignora os modelos pré-treinados baixados pelo código (evita peso inútil)
+yolov8n.pt
+yolo26n.pt
+
+# Ignora os arquivos de cache criados pelo YOLO durante o treino
+*.cache
+
+# ==========================================
+# DATASETS E IMAGENS BRUTAS
+# ==========================================
+# Ignora as pastas onde guardamos as fotos do drone
+dataset_lixo/
+dataset_lixo_yolo/
+
+# ==========================================
+# SISTEMA OPERACIONAL E IDEs
+# ==========================================
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS (caso algum colega do grupo use)
+.DS_Store

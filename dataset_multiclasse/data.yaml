@@ -1,0 +1,8 @@
+# Apague a variável "path: ..." para evitar o bug de concatenação com o acento
+
+# Declare os caminhos absolutos completos usando barras normais (/)
+train: C:/Users/JoãoF/Desktop/drone/dataset_multiclasse/images/train
+val: C:/Users/JoãoF/Desktop/drone/dataset_multiclasse/images/val
+
+nc: 4
+names: ['Saco de lixo', 'Garrafa PET', 'Latinha', 'Pneu']
